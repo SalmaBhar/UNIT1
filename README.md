@@ -1,12 +1,22 @@
-# Personal Notes on Norman Doors Video
+# An electronic hardware store
 
-Def: A Norman Door is a door where the design tells you to do the opposite of what you are supposed to do.
+## Criteria A: Planning 
 
-### Human-Centered Design Basics:
-1. Dicoverability: The ability to discover what operations one can do.
-2. Feedback: A signal of what happened.
+### Context of the problem
+There is a hardware store in Karuizawa. This store is quite old, Like 1000 years old. The owner, Mr Sakamoto, wants to upgrade his accounting software, which at the moment is kept on paper. He would like to have a software application tha replaces the accounting book. Mr Sakamoto got a new Mac PC from his nephew, and we would like to use it.
 
-Observation --> Idea Generation --> Prototyping --> Testing (Repeat)
+### Justification of the solution
+***Here we will write the design statement: what we will do, how, by when***
 
-### Comment
-This small issue of bad doors highlights a wider issue on the global scale. Just like there are bad doors in this world, there also bad houses, bad drainage-systems, bad airplanes and so on. I think it is genius to consider this small issue that we usually ignore in our everyday life. That is why products have to be well-designed so it makes tasks easier and more efficient, rather than complicate them.
+## Criteria C: Development
+
+First test of text based menu:
+
+```.py
+welcome_msg = "Welcome to Sakamoto's store"
+
+print(welcome_msg)
+print("This is the menu")
+print("=" * 20)
+```
+
