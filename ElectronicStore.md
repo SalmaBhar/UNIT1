@@ -107,13 +107,7 @@ Table 1. Calculation of taxes based on the total
 | 15%  | 500 < total <= 750  |
 | 20%  | 250 < total <= 500  |
 | 25%  | 0 < total <= 250    |
-```.py
-for n in [0,1,2,3]:
-    if 250*n < total <= 250*n + 250:
-        tax = 0.25 - 0.05 * n
-    if total > 1000:
-        tax = 0.05
- 
+
 ```.py
 
 #This program calculates Taxes
@@ -144,10 +138,11 @@ for n in [0,1,2,3,4]:
         tax=0.25-0.05*n
     if total>1000:
         tax=0.05
+        
 # Step 3 show the result in a frame
 print("#"*50)
 print("#"," "*46,"#")
-print("#",tax)
+print("#",tax) # I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
 print("#"," "*46,"#")
 print("#"*50)
 
