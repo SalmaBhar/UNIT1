@@ -51,8 +51,105 @@ for n in range(3):
 print('Your Final Total is ....... {} USD'.format(total))
 print('Thank you for shopping in our store!')
 
+#STILL NEEDS A LOT OF WORK !!!
 # Check that the user entered a valid option,
 # give at least three trials
 # Get the quantity
 # show the total 
 ```
+
+# Dice Simulation
+The following code is a simulation of a dice. It uses the Random Library.
+```.py
+#3- Repeat process 1000 times and record the counts for each face
+import random
+counts = [0, 0, 0, 0, 0, 0]
+num_trial = 20000
+for trial in range(num_trial):
+    number = random.randint(0,60)
+    if number < 10:
+        counts[0] += 1
+    elif 9 < number < 20:
+        counts[1] += 1
+    elif 19 < number < 30:
+        counts[2] += 1
+    elif 29 < number < 40:
+        counts[3] += 1
+    elif 39 < number < 50:
+        counts[4] += 1
+    elif 49 < number < 60:
+        counts[5] += 1
+for index, c in enumerate(counts):
+    error = c - num_trial/6
+    print("Number of {}s: {}, expected {}, error {}".format(index+1,c, num_trial/6, error))
+```  
+# Personal Notes on Norman Doors Video
+
+Def: A Norman Door is a door where the design tells you to do the opposite of what you are supposed to do.
+
+### Human-Centered Design Basics:
+1. Dicoverability: The ability to discover what operations one can do.
+2. Feedback: A signal of what happened.
+
+Observation --> Idea Generation --> Prototyping --> Testing (Repeat)
+
+### Comment
+This small issue of bad doors highlights a wider issue on the global scale. Just like there are bad doors in this world, there also bad houses, bad drainage-systems, bad airplanes and so on. I think it is genius to consider this small issue that we usually ignore in our everyday life. That is why products have to be well-designed so it makes tasks easier and more efficient, rather than complicate them.
+ 
+# Taxes Program 
+Program to calculate the taxes: The program below uses pattern recognition to simplify the calculation of the taxes according to the table below
+
+Table 1. Calculation of taxes based on the total
+| Rate | Bill total          |
+|------|---------------------|
+| 5%   | >1000 BTC           |
+| 10%  | 750 < total <= 1000 |
+| 15%  | 500 < total <= 750  |
+| 20%  | 250 < total <= 500  |
+| 25%  | 0 < total <= 250    |
+```.py
+for n in [0,1,2,3]:
+    if 250*n < total <= 250*n + 250:
+        tax = 0.25 - 0.05 * n
+    if total > 1000:
+        tax = 0.05
+ 
+```.py
+
+#This program calculates Taxes
+
+#Step 1 Enter and validate input which is a total amount
+while True:
+    total=int(input("Please enter the Total amount (BTC):"))
+    if total<0:
+        print("The total cannot be negative, try again.")
+    else:
+        break
+
+#Step 2: without using pattern recognition
+if 0<total<=250:
+    tax=0.05
+if 250<total<=500:
+    tax=0.10
+if 500<total<=750:
+    tax=0.15
+if 750<total<=1000:
+    tax=0.20
+if total>1000:
+    tax=0.25
+
+#With pattern recognition
+for n in [0,1,2,3,4]:
+    if 250*n<total<=250*n+250:
+        tax=0.25-0.05*n
+    if total>1000:
+        tax=0.05
+# Step 3 show the result in a frame
+print("#"*50)
+print("#"," "*46,"#")
+print("#",tax)
+print("#"," "*46,"#")
+print("#"*50)
+
+```
+I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
