@@ -177,5 +177,22 @@ if sum==n:
     print("{} is a perfect number".format(n))
 else:
     print("{} is not a perfect number".format(n))
+    
+#Edit so it shows us the 1st 100 perfect number
+n=1000001
+#Get the factors
+my_sum=0
+my_list=[]
+first_hundred=0
+if first_hundred<101:
+    for num in range (1, n):
+        for div in range (1,num):
+            if num%div==0:
+                my_sum+=div
+        if my_sum==num:
+            first_hundred+=1
+            my_list.append(num)
+else:
+    print(my_list)
 ```
 ! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
