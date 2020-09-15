@@ -8,10 +8,24 @@ There is a hardware store in Karuizawa. This store is quite old, Like 1000 years
 ### Justification of the solution
 ***Here we will write the design statement: what we will do, how, by when***
 we want to crate a text based application that runs on a computer, which provides the functionality for the hardware store. The app should provide action such as record of purchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this application using Python. We will use Python because it is the software we are using in class at the moment. In comparison to C++ or C, Python has a lean and simple programming syntax. In addition Python has become the most popular programming language over the last years [1]. Similarly, Python has a large repository of libraries and documentation. 
+[1] Finley, Klint. “The Python Programming Language Is More Popular Than Ever.” Wired, Conde Nast, 3 Mar. 2020, www.wired.com/story/python-language-more-popular-than-ever/. 
 
 T.E.L.O.S study: 
+ 
+### T - Technical - Is the project technically possible?
+This project is technically possible thanks to our disposial of PyCharm software to make Python code. TBD
 
-[1] MLA citation for the data supporting that Python is the most popular programming language
+### E - Economic - Can the project be afforded? Will it increase profit?
+TBD
+
+### L - Legal - Is the project legal?
+The project is completely legal as the Japanese constitution does not criminalize digitalisation and automization. 
+
+### O - Operational - How will the current operations support the change?
+TBD
+
+### S - Scheduling - Can the project be done in time?
+TBD
 
 ## Criteria for Success
 1. Provides clear feedback to the user (Usability)
@@ -148,3 +162,4 @@ print("#"*50)
 
 ```
 ## I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
+! I copied some parts from Mr. Ruben's repository which indicate the task :) ! 
