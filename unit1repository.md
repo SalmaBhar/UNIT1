@@ -163,4 +163,19 @@ print("#"*50)
 
 ```
 ## I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
+
+# A program that verifies perfect numbers
+```.py
+#This program checks if the number provided is perfect
+n=int(input("enter a number "))
+#Get the factors
+sum=0
+for div in range (1,n):
+    if n%div==0:
+        sum+=div
+if sum==n:
+    print("{} is a perfect number".format(n))
+else:
+    print("{} is not a perfect number".format(n))
+```
 ! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
