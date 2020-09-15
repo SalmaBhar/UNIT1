@@ -11,21 +11,21 @@ we want to crate a text based application that runs on a computer, which provide
 
 [1] Finley, Klint. “The Python Programming Language Is More Popular Than Ever.” Wired, Conde Nast, 3 Mar. 2020, www.wired.com/story/python-language-more-popular-than-ever/. 
 
-T.E.L.O.S study: 
+### T.E.L.O.S study: 
  
-### T - Technical - Is the project technically possible?
+T - Technical - Is the project technically possible?
 This project is technically possible thanks to our disposial of PyCharm software to make Python code. TBD
 
-### E - Economic - Can the project be afforded? Will it increase profit?
+E - Economic - Can the project be afforded? Will it increase profit?
 TBD
 
-### L - Legal - Is the project legal?
+L - Legal - Is the project legal?
 The project is completely legal as the Japanese constitution does not criminalize digitalisation and automization. 
 
-### O - Operational - How will the current operations support the change?
+O - Operational - How will the current operations support the change?
 TBD
 
-### S - Scheduling - Can the project be done in time?
+S - Scheduling - Can the project be done in time?
 TBD
 
 ## Criteria for Success
