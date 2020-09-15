@@ -180,10 +180,10 @@ else:
     
 #Edit so it shows us the 1st 100 perfect number
 n=1000001
-#Get the factors
 my_sum=0
 my_list=[]
 first_hundred=0
+
 if first_hundred<101:
     for num in range (1, n):
         for div in range (1,num):
