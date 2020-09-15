@@ -163,4 +163,4 @@ print("#"*50)
 
 ```
 ## I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
-! I copied some parts from Mr. Ruben's repository which indicate the task :) ! 
+! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
