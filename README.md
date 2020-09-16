@@ -196,4 +196,8 @@ if first_hundred<101:
 else:
     print(my_list)
 ```
+
+# Parts of the computer
+
+Diagram 
 ! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
