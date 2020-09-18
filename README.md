@@ -21,7 +21,7 @@ E - Economic - Can the project be afforded? Will it increase profit?
 This project is developed for free by UWC ISAK Japan CS students. Its benifits include time-saving and efficiency which will allow Mr. Sakamoto to manage his store's financial transactions. Moreover, an accounting notebook might cause non-intentional errors and mistakes which result in loss of money. 
 
 L - Legal - Is the project legal?
-The project is completely legal as the Japanese constitution does not criminalize digitalisation and automization. 
+The project is completely legal as the 1947 Japanese constitution does not criminalize digitalisation and automization. 
 
 O - Operational - How will the current operations support the change?
 TBD
