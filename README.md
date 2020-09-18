@@ -115,7 +115,7 @@ Observation --> Idea Generation --> Prototyping --> Testing (Repeat)
 
 Comment: This small issue of bad doors highlights a wider issue on the global scale. Just like there are bad doors in this world, there also bad houses, bad drainage-systems, bad airplanes and so on. I think it is genius to consider this small issue that we usually ignore in our everyday life. That is why products have to be well-designed so it makes tasks easier and more efficient, rather than complicate them.
  
-# Taxes Program 
+Taxes Program: 
 Program to calculate the taxes: The program below uses pattern recognition to simplify the calculation of the taxes according to the table below
 
 Table 1. Calculation of taxes based on the total
