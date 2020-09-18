@@ -12,7 +12,7 @@ we want to crate a text based application that runs on a computer, which provide
 
 [1] Finley, Klint. “The Python Programming Language Is More Popular Than Ever.” Wired, Conde Nast, 3 Mar. 2020, www.wired.com/story/python-language-more-popular-than-ever/. 
 
-### T.E.L.O.S study: 
+T.E.L.O.S study: 
  
 T - Technical - Is the project technically possible?
 We dispose of PyCharm software to make Python code and of a computer to code on. In addition, Mr. Sakamoto got a new MAC Portable Computer on which he can run the application successfully. All we need to make this project is a computer, a Python coding software and the disposal of our customer of a computer. All 3 criteria are satisfied, thus, our project is technically possible. 
@@ -31,9 +31,15 @@ TBD
 
 ### Criteria for Success
 1. Provides clear feedback to the user (Usability)
-1. **There are no bugs in the application**
-1. The application should allow to calcualte the total and billing
-1. Secure application: It allows user login/autenthication 
+2. **There are no bugs in the application**
+3. The application should allow to calcualte the total and billing
+4. Secure application: It allows user login/autenthication 
+
+## Criteria B: Design
+### System Diagram 
+### Flow Diagram (menu)
+### User Interface
+### Record of Tasks
 
 ## Criteria C: Development
 
@@ -73,7 +79,6 @@ print('Thank you for shopping in our store!')
 # show the total 
 ```
 
-# Dice Simulation
 The following code is a simulation of a dice. It uses the Random Library.
 ```.py
 #3- Repeat process 1000 times and record the counts for each face
@@ -98,18 +103,17 @@ for index, c in enumerate(counts):
     error = c - num_trial/6
     print("Number of {}s: {}, expected {}, error {}".format(index+1,c, num_trial/6, error))
 ```  
-# Personal Notes on Norman Doors Video
+Personal Notes on Norman Doors Video
 
 Def: A Norman Door is a door where the design tells you to do the opposite of what you are supposed to do.
 
-### Human-Centered Design Basics:
+Human-Centered Design Basics:
 1. Dicoverability: The ability to discover what operations one can do.
 2. Feedback: A signal of what happened.
 
 Observation --> Idea Generation --> Prototyping --> Testing (Repeat)
 
-### Comment
-This small issue of bad doors highlights a wider issue on the global scale. Just like there are bad doors in this world, there also bad houses, bad drainage-systems, bad airplanes and so on. I think it is genius to consider this small issue that we usually ignore in our everyday life. That is why products have to be well-designed so it makes tasks easier and more efficient, rather than complicate them.
+Comment: This small issue of bad doors highlights a wider issue on the global scale. Just like there are bad doors in this world, there also bad houses, bad drainage-systems, bad airplanes and so on. I think it is genius to consider this small issue that we usually ignore in our everyday life. That is why products have to be well-designed so it makes tasks easier and more efficient, rather than complicate them.
  
 # Taxes Program 
 Program to calculate the taxes: The program below uses pattern recognition to simplify the calculation of the taxes according to the table below
@@ -124,47 +128,15 @@ Table 1. Calculation of taxes based on the total
 | 25%  | 0 < total <= 250    |
 
 ```.py
-
-#This program calculates Taxes
-
-#Step 1 Enter and validate input which is a total amount
-while True:
-    total=int(input("Please enter the Total amount (BTC):"))
-    if total<0:
-        print("The total cannot be negative, try again.")
-    else:
-        break
-
-#Step 2: without using pattern recognition
-if 0<total<=250:
-    tax=0.05
-if 250<total<=500:
-    tax=0.10
-if 500<total<=750:
-    tax=0.15
-if 750<total<=1000:
-    tax=0.20
-if total>1000:
-    tax=0.25
-
-#With pattern recognition
+#This program calculates Taxes with pattern recognition
 for n in [0,1,2,3,4]:
     if 250*n<total<=250*n+250:
         tax=0.25-0.05*n
     if total>1000:
         tax=0.05
-        
-# Step 3 show the result in a frame
-print("#"*50)
-print("#"," "*46,"#")
-print("#",tax) # I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
-print("#"," "*46,"#")
-print("#"*50)
-
 ```
-## I CANNOT GET THE # AFTER THE TAX TOTAL IN THE FRAME IN THE RIGHT PLACE!
 
-# A program that verifies perfect numbers
+A program that verifies perfect numbers
 ```.py
 #This program checks if the number provided is perfect
 n=int(input("enter a number "))
@@ -177,29 +149,10 @@ if sum==n:
     print("{} is a perfect number".format(n))
 else:
     print("{} is not a perfect number".format(n))
-    
-#Edit so it shows us the 1st 100 perfect number
-n=1000001
-my_sum=0
-my_list=[]
-first_hundred=0
-
-if first_hundred<101:
-    for num in range (1, n):
-        for div in range (1,num):
-            if num%div==0:
-                my_sum+=div
-        if my_sum==num:
-            first_hundred+=1
-            my_list.append(num)
-else:
-    print(my_list)
 ```
+## Criteria D: Functionality
+In the form of a video.
 
-# Parts of the computer
-![](IMG-20200916-WA0000.jpg)
-Fig.1. Diagram of the components of a Computer
+## Criteria E: Evaluation
 
-This diagram shows the overall composition of a modern day computer. The information is inserted through input devices such as (mouse, keyboard, USB...) and is presented to the user through output devices (screen, printer, speakers...). We can observe from the outside input slots for USBs, CDs... Inside the central unit, a DDR4 motherboard is the most important component. It hosts a CPU (Central Processing Unit) core i9 covered by a cooling fan, the CPH (Control Panel Hub) used to replace the southbridge, 4 DIMMs of 32GB RAM (Random Access Memory), a GPU GTX 2080 Graphic card and PCI (Peripheral Component Interconnect) bus slot. Connected to the motherboard by PSU cables, lies a Power Supply Unit 600W Bronze. We finally observe a 2T HDD (Hard Disk Drive) and a 256GB SSD (Solid State Drive) both connected to the motherboard by SATA (Serial AT Attachment) cables. 
 
-! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
