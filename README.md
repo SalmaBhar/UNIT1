@@ -198,6 +198,6 @@ else:
 ```
 
 # Parts of the computer
-
+![](IMG-20200916-WA0000.jpg)
 Diagram 
 ! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
