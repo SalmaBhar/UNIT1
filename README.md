@@ -40,6 +40,11 @@ TBD
 ### Flow Diagram (menu)
 ### User Interface
 ### Record of Tasks
+| Task No | Planned Action                                                                                           | Planned Outcome                       | Time Estimated | Target Completion date | Criterion |
+|---------|----------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|------------------------|-----------|
+| 1       | Planning: Discuss the context of the situation. ( Ideally this is the first interview with your client)  | Write the context of the problem      | 15 min         | Sep 11th               | A         |
+| 2       | Development: Coded the a text-based menu system for some parts in the hardware store                     | A working program that shows the menu | 80 min         | Sep 18th               | D         |
+|         |                                                                                                          |                                       |                |                        |           |
 
 ## Criteria C: Development
 
