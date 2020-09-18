@@ -29,12 +29,11 @@ TBD
 S - Scheduling - Can the project be done in time?
 TBD
 
-## Criteria for Success
+### Criteria for Success
 1. Provides clear feedback to the user (Usability)
 1. **There are no bugs in the application**
 1. The application should allow to calcualte the total and billing
 1. Secure application: It allows user login/autenthication 
-
 
 ## Criteria C: Development
 
