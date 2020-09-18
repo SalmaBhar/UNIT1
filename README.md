@@ -15,10 +15,10 @@ we want to crate a text based application that runs on a computer, which provide
 ### T.E.L.O.S study: 
  
 T - Technical - Is the project technically possible?
-This project is technically possible thanks to our disposial of PyCharm software to make Python code. TBD
+We dispose of PyCharm software to make Python code and of a computer to code on. In addition, Mr. Sakamoto got a new MAC Portable Computer on which he can run the application successfully. All we need to make this project is a computer, a Python coding software and the disposal of our customer of a computer. All 3 criteria are satisfied, thus, our project is technically possible. 
 
 E - Economic - Can the project be afforded? Will it increase profit?
-TBD
+This project is developed for free by UWC ISAK Japan CS students. Its benifits include time-saving and efficiency which will allow Mr. Sakamoto to manage his store's financial transactions. Moreover, an accounting notebook might cause non-intentional errors and mistakes which result in loss of money. 
 
 L - Legal - Is the project legal?
 The project is completely legal as the Japanese constitution does not criminalize digitalisation and automization. 
