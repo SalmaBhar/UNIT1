@@ -158,6 +158,12 @@ if first_hundred<101:
 else:
     print(my_list)
 ```
+# Parts of a Computer 
+![alt text](IMG-20200916-WA0000.jpg)
+Fig.1. Diagram of the components of a Computer
+
+This diagram shows the overall composition of a modern day computer. The information is inserted through input devices such as (mouse, keyboard, USB...) and is presented to the user through output devices (screen, printer, speakers...). We can observe from the outside input slots for USBs, CDs... Inside the central unit, a DDR4 motherboard is the most important component. It hosts a CPU (Central Processing Unit) core i9 covered by a cooling fan, the CPH (Control Panel Hub) used to replace the southbridge, 4 DIMMs of 32GB RAM (Random Access Memory), a GPU GTX 2080 Graphic card and PCI (Peripheral Component Interconnect) bus slot. Connected to the motherboard by PSU cables, lies a Power Supply Unit 600W Bronze. We finally observe a 2T HDD (Hard Disk Drive) and a 256GB SSD (Solid State Drive) both connected to the motherboard by SATA (Serial AT Attachment) cables.
+
 # Quick Exercice 
 input: 3578195
 output: true/false
