@@ -65,7 +65,7 @@ for c, item in enumerate(items):
 for n in range(3): 
   option = int(input("Enter the number of the product you want"))
   if option<1 or option>2:
-    print('Option not valid. Please enter an existing product number')
+    option=int(input('Option not valid. Please enter an existing product number'))
   elif option==1:
     print('Product RAM added to your cart successfully!')
     total+=10
