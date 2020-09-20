@@ -158,7 +158,7 @@ else:
 
 The Caesar Cipher
 ```.py
-#Caesar Cipher
+#Encrypting
 msg=input("enter your message ")
 n=int(input("enter a shift value "))
 encrypted_msg=""
