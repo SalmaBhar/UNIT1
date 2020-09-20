@@ -20,7 +20,7 @@ The 4 core computational thinking skills are:
 
 Nowadays, supercomputers are allowing us to do incredible things beyond human capacities. They have a major contribution in scientific research using simulations which allow researchers to test untestable experiments and to predict possible outcomes. As a consequence, they help us be safer by predicting natural disasters, finding cures for diseases and modeling outer space to give us a better understanding of our universe. In addition, supercomputers like Sierra are ensuring social security by monitoring and simulating old nuclear weapons. 
 
-However, supercomputers are a double-edged weapon and could be extremely dangerous if used by the wrong hands. This includes using them in planning wars and developing deadly weapons. Moreover, their high ability to crack passwords and access accounts could present a real hazard to the privacy and personal information of people. Additionally, if developed to the point of intelligence, supercomputers might take over humanity, although that last point remains part of science fiction for now.
+However, supercomputers are a double-edged weapon and could be extremely dangerous if used by the wrong hands. This includes using them in planning wars and developing deadly weapons. Moreover, their high ability to crack passwords and access accounts could present a real hazard to the privacy and personal information of people. Additionally, if developed to the point of intelligence, supercomputers might take over humanity, although that last point remains science fiction for now.
 
 In conclusion, it is undeniable that supercomputers hold great power that should be used wisely. It is true that they can cause global hazards if in the hands of corrupt governments. However, will we stop cancer cure research which could save thousands of lives? Will we prevent predictions of earthquakes in Japan which could wipe out cities, if not prepared correctly? As long as life continues, bad people will always exist and YES we should be careful about them. However, they should not be a reason for humanity to stop advancing and making positive global impacts through supercomputers.
 
@@ -30,7 +30,7 @@ Fugaku (富岳) is Japan’s most powerful supercomputer located at the RIKEN Ce
 [1] “Supercomputer Fugaku - Supercomputer Fugaku, A64FX 48C 2.2GHz, Tofu Interconnect D.” TOP500, www.top500.org/system/179807/. 
 
 ## Programming Task 1
-This program shows the colors of all lockers from 1 to 2400
+This program shows the colors of all lockers from 1 to 2400.
 ```.py
 for ln in range (1, 2401):
     if ln%4==1:
