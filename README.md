@@ -155,6 +155,28 @@ if sum==n:
 else:
     print("{} is not a perfect number".format(n))
 ```
+
+The Caesar Cipher
+```.py
+#Caesar Cipher
+msg=input("enter your message ")
+n=int(input("enter a shift value "))
+encrypted_msg=""
+for i in msg:
+    i=chr(ord(i)+n)
+    encrypted_msg+=i #concatenate text
+    print(i, end="") #the end is to make the letters next to each other and not in a seperate line each!
+print(" ")
+
+#Decrypting
+msg=input("enter your encrypted message ")
+n=int(input("enter a shift value "))
+decrypted_msg=""
+for d in msg:
+    d=chr(ord(d)-n)
+    decrypted_msg+=d 
+    print(d, end="")
+```
 ## Criteria D: Functionality
 In the form of a video.
 
