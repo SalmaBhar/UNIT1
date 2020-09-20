@@ -1,41 +1,4 @@
-# An electronic hardware store
-
-## Criteria A: Planning 
-
-### Context of the problem
-There is a hardware store in Karuizawa. This store is quite old, Like 1000 years old. The owner, Mr Sakamoto, wants to upgrade his accounting software, which at the moment is kept on paper. He would like to have a software application tha replaces the accounting book. Mr Sakamoto got a new Mac PC from his nephew, and we would like to use it.
-
-### Justification of the solution
-***Here we will write the design statement: what we will do, how, by when***
-we want to crate a text based application that runs on a computer, which provides the functionality for the hardware store. The app should provide action such as record of purchases, categorization of items, record of inventory, calculation of totals, billing. We will develop this application using Python. We will use Python because it is the software we are using in class at the moment. In comparison to C++ or C, Python has a lean and simple programming syntax. In addition Python has become the most popular programming language over the last years [1]. Similarly, Python has a large repository of libraries and documentation. 
-
-[1] Finley, Klint. “The Python Programming Language Is More Popular Than Ever.” Wired, Conde Nast, 3 Mar. 2020, www.wired.com/story/python-language-more-popular-than-ever/. 
-
-### T.E.L.O.S study: 
- 
-T - Technical - Is the project technically possible?
-This project is technically possible thanks to our disposial of PyCharm software to make Python code. TBD
-
-E - Economic - Can the project be afforded? Will it increase profit?
-TBD
-
-L - Legal - Is the project legal?
-The project is completely legal as the Japanese constitution does not criminalize digitalisation and automization. 
-
-O - Operational - How will the current operations support the change?
-TBD
-
-S - Scheduling - Can the project be done in time?
-TBD
-
-## Criteria for Success
-1. Provides clear feedback to the user (Usability)
-1. **There are no bugs in the application**
-1. The application should allow to calcualte the total and billing
-1. Secure application: It allows user login/autenthication 
-
-
-## Criteria C: Development
+Remark: these are just my digital class notes, the rest of my notes are in my physical notebook.  
 
 First test of text based menu:
 
@@ -195,4 +158,23 @@ if first_hundred<101:
 else:
     print(my_list)
 ```
-! I copied some parts from Mr. Ruben's repository which indicate the task done in class :) ! 
+# Quick Exercice 
+input: 3578195
+output: true/false
+sum of the 1st 3 digits and sum of last 4 digits are the same.
+```.py
+num=3578195
+num_str=str(num)
+print(num_str)
+f=num_str[0:3]
+l=num_str[3:]
+print(f, l)
+sumf=0
+suml=0
+for n in f:
+    sumf+=int(n)
+for i in l:
+    suml+=int(i)
+print(sumf==suml)
+```
+! I copied some parts from Dr. Ruben's repository which indicate the task done in class :) ! 
