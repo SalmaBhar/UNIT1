@@ -28,6 +28,7 @@ In conclusion, it is undeniable that supercomputers hold great power that should
 Fugaku (富岳) is Japan’s most powerful supercomputer located at the RIKEN Center for Computational Science in Kobe, Japan. It is sponsored by MEXT and is scheduled to start operating in 2021. It has an extremely large memory of 4,866,048 GB, a powerful A64FX 48C 2.2GHz PCU and uses the Red Hat Enterprise Linux operating system [1]. It will be used in the data science and artificial intelligence field.
 
 [1] “Supercomputer Fugaku - Supercomputer Fugaku, A64FX 48C 2.2GHz, Tofu Interconnect D.” TOP500, www.top500.org/system/179807/. 
+![alt text](fugaku-supercomputer-1280x720.jpg)
 
 ## Programming Task 1
 This program shows the colors of all lockers from 1 to 2400.
@@ -42,7 +43,7 @@ for ln in range (1, 2401):
     if ln%4==0:
         print ("locker number {} is blue".format(ln))
 ```
-        
+![alt text](lockers prog.png)        
 ## Programming Task 2
 Using the program above, this program allows the user to enter a number and the program outputs the color that should be used in the locker.
 ```.py
@@ -58,3 +59,4 @@ if n%4==3:
 if n%4==0:
     print ("locker number {} is blue".format(n))
 ```
+![alt text](colors.png)     
