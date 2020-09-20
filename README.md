@@ -37,8 +37,9 @@ TBD
 
 ## Criteria B: Design
 ### System Diagram 
+still working on it.
 ### Flow Diagram (menu)
-### User Interface
+still working on it.
 ### Record of Tasks
 | Task No | Planned Action                                                                                           | Planned Outcome                       | Time Estimated | Target Completion date | Criterion |
 |---------|----------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|------------------------|-----------|
