@@ -43,7 +43,7 @@ for ln in range (1, 2401):
     if ln%4==0:
         print ("locker number {} is blue".format(ln))
 ```
-![alt text](lockers_prog.png)        
+![alt text](lockersprog.png)        
 ## Programming Task 2
 Using the program above, this program allows the user to enter a number and the program outputs the color that should be used in the locker.
 ```.py
