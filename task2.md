@@ -31,32 +31,32 @@ Fugaku (富岳) is Japan’s most powerful supercomputer located at the RIKEN Ce
 ![alt text](fugaku-supercomputer-1280x720.jpg)
 
 ## Programming Task 1
-This program shows the colors of all lockers from 1 to 2400.
 ```.py
-for ln in range (1, 2401):
-    if ln%4==1:
-        print ("locker number {} is red".format(ln))
-    if ln%4==2:
-        print ("locker number {} is white".format(ln))
-    if ln%4==3:
-        print ("locker number {} is yellow".format(ln))
-    if ln%4==0:
-        print ("locker number {} is blue".format(ln))
+#This program shows the colors of all lockers from 1 to 2400
+for locker_number in range (1, 2401):
+    if locker_number%4==1:
+        print ("locker number {} is red".format(locker_number))
+    if locker_number%4==2:
+        print ("locker number {} is white".format(locker_number))
+    if locker_number%4==3:
+        print ("locker number {} is yellow".format(locker_number))
+    if locker_number%4==0:
+        print ("locker number {} is blue".format(locker_number))
 ```
 ![alt text](lockersprog.png)        
 ## Programming Task 2
-Using the program above, this program allows the user to enter a number and the program outputs the color that should be used in the locker.
 ```.py
-n=int(input("Please enter a locker number between 1 and 2400 "))
-while n<1 or n>2400:
-    n=int(input("Invalid option. Please try again a number between 1 and 2400 "))
-if n%4==1:
-    print ("locker number {} is red".format(n))
-if n%4==2:
-    print ("locker number {} is white".format(n))
-if n%4==3:
-    print ("locker number {} is yellow".format(n))
-if n%4==0:
-    print ("locker number {} is blue".format(n))
+#Using the program above, this program allows the user to enter a number and the program outputs the color that should be used in the locker
+locker_number=int(input("Please enter a locker number between 1 and 2400 "))
+while locker_number<1 or locker_number>2400:
+    locker_number=int(input("Invalid option. Please try again a number between 1 and 2400 "))
+if locker_number%4==1:
+    print ("locker number {} is red".format(locker_number))
+if locker_number%4==2:
+    print ("locker number {} is white".format(locker_number))
+if locker_number%4==3:
+    print ("locker number {} is yellow".format(locker_number))
+if locker_number%4==0:
+    print ("locker number {} is blue".format(locker_number))
 ```
 ![alt text](colors.png)     
