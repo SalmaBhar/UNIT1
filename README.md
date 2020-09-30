@@ -178,7 +178,12 @@ for d in msg:
     decrypted_msg+=d 
     print(d, end="")
 ```
-Securing the database
+### Securing the database
+To secure the database, we will be using a Caesar Cipher. This cipher encodes messages by assigning a new letter to each existing letter using a constant shift in their ASCII code. We will proceed by the following steps: <br />
+1. Open and read the database text file
+2. Split the file into letters
+3. Apply the shift to each letter of the file 
+4. Show the new database
 
 ![alt text](cipherdiagram.png)
 
@@ -190,9 +195,9 @@ all_db_lines = open("db.txt", "r").readlines()
 for line in all_db_lines:
     len_line = len(line)
     print(len_line)
+# Step 3
     for l in range(len_line):
         print("Line number: {} out of {} {} completion {}%" > format(l + 1, len_line, "."* 30, (l + 1) / len_line * 100))
-
 ```
 ## Criteria D: Functionality
 In the form of a video.
