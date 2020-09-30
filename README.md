@@ -180,7 +180,7 @@ for d in msg:
 ```
 Securing the database
 
-!<img>(cipherdiagram.png)
+![alt text](cipherdiagram.png)
 
 ```.py
 # This program encryptes a database using the Caesar
