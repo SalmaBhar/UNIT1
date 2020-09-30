@@ -187,6 +187,7 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 
 ![alt text](generaldiagram.png)
 
+
 ![alt text](cipherdiagram.png)
 
 ```.py
