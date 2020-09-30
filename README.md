@@ -178,6 +178,22 @@ for d in msg:
     decrypted_msg+=d 
     print(d, end="")
 ```
+Securing the database
+
+!<img>(cipherdiagram.png)
+
+```.py
+# This program encryptes a database using the Caesar
+# Step 1
+all_db_lines = open("db.txt", "r").readlines()
+# Step 2
+for line in all_db_lines:
+    len_line = len(line)
+    print(len_line)
+    for l in range(len_line):
+        print("Line number: {} out of {} {} completion {}%" > format(l + 1, len_line, "."* 30, (l + 1) / len_line * 100))
+
+```
 ## Criteria D: Functionality
 In the form of a video.
 
