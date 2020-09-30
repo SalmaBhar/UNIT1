@@ -184,6 +184,7 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 2. Split the file into letters
 3. Apply the shift to each letter of the file 
 4. Show the new database
+![alt text](generaldiagram.png)
 
 ![alt text](cipherdiagram.png)
 
