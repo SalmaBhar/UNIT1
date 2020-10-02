@@ -185,10 +185,10 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 3. Apply the shift to each letter of the file 
 4. Save the new encrypted database
 
-![alt text](generaldiagram.png)
+![alt text](generaldiagram.png) <br>
 **Fig.1.** General Diagram for the Encryption process 
 
-![alt text](cipherflowdiagram.png)
+![alt text](cipherflowdiagram.png) <br>
 **Fig.2.** Flow Diagram for the Encryption process 
 
 ```.py
