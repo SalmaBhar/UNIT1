@@ -30,6 +30,11 @@ Chrome OS: Google developers [4] <br>
 ### Question 5: The list below states some of the least known open source operating systems. Research what they are mainly used for, what graphical interface system they use and what are the minimal specifications of the computer needed to run them. 
 1. Red Hat mainly provides  open source software products to enterprises. RHEL 8, for example, comes in two main flavors, Server without GUI and Workstation with GUI pre-installed as default. For RHEL 8, the minimum specifications are 4 GB RAM, 20 GB unallocated disk space and 64-bit x86 or ARM System. <br>
 2. CentOS is mainly used for web hosting. For example CentOS 7 uses the GUI GNOME.  For CentOS 8, the minimum specifications are 2 GB RAM, 2 GHz or Higher Processor, 20 GB Hard Disk and 64-bit x86 System. <br>
-
+3. SUSE is used for servers, mainframes, and workstations. The K Desktop Environment (KDE) is the default GUI for SLES 9. It requires a minimum of 1024 MB of total RAM or a minimum of 512 MB of RAM per CPU core. <br>
+4. Linux Mint is mainly used for individual purposes. Its GUI is GNOME or Cinnamon. Linux Mint 32-bit works on both 32-bit and 64-bit processors, 512 MB RAM, 5 GB of disk space and Graphics card capable of 800×600 resolution. <br>
+5. Fedora is an easy to use operating system for laptop and desktop computers, with a complete set of tools for developers and makers of all kinds. It doesn't come with any graphical user interface by default so the GUI has to be installed from Linux. Fedora will install on PCs with Intel and AMD 32- and 64-bit processors, a minimum of 256 MB of memory, 7 GB of disk space, and a processor speed of 400 MHz. <br>
+6. Knoppix can be used to copy files easily from hard drives with inaccessible operating systems. Its GUI is Adriane. Its system requirements are Intel/AMD-compatible CPU (i486 and up), RAM 200 MB, a bootable CD-ROM/DVD drive (IDE/ATAPI/SATA, Firewire, USB), or USB flash disk and a standard SVGA-compatible graphics chipset. <br>
+7. Manjaro is used for domestic use by beginners or by professionals. Its GUI is Calamares. Its minimum requirements are 1 GB RAM,1 GHz CPU, 30 GB hard disk size and bootable media. <br>
+8. Kali is a Linux distribution aimed at advanced Penetration Testing and Security Auditing. It uses GNOME as a GUI by default. Kali Version 2020.2 requires at least 3.6GB and a minimum of 257MB RAM for i386 and AMD64 architectures. <br>
 
 ### Extra: programming task: Create a program that prints n numbers of the Fibonacci Series, where n is an integer entered by the user.
