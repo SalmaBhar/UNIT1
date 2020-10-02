@@ -38,3 +38,21 @@ Chrome OS: Google developers [4] <br>
 8. Kali is a Linux distribution aimed at advanced Penetration Testing and Security Auditing. It uses GNOME as a GUI by default. Kali Version 2020.2 requires at least 3.6GB and a minimum of 257MB RAM for i386 and AMD64 architectures. <br>
 
 ### Extra: programming task: Create a program that prints n numbers of the Fibonacci Series, where n is an integer entered by the user.
+```.py
+#This program shows the 1st n numbers of the Fibonacci sequence
+n_terms=int(input("Enter your number of terms "))
+n1, n2=1, 1
+count=0
+while n_terms<0 or n_terms==0:
+    n_terms=int(input("Please enter a positive number "))
+if n_terms==1:
+    print("Fibonacci sequence: {}".format(n1))
+else:
+    print("Fibonacci sequence: ")
+    while count<n_terms:
+        print(n1)
+        nth=n1+n2
+        n1=n2
+        n2=nth
+        count+=1
+```
