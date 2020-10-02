@@ -183,7 +183,7 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 1. Open and read the database text file
 2. Split the file into letters
 3. Apply the shift to each letter of the file 
-4. Show the new database
+4. Save the new encrypted database
 
 ![alt text](generaldiagram.png)
 
@@ -191,16 +191,22 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 ![alt text](cipherdiagram.png)
 
 ```.py
-# This program encryptes a database using the Caesar
+# This program encryptes a database using the Caesar Cipher
 # Step 1
-all_db_lines = open("db.txt", "r").readlines()
+all_db_lines = open("db", "r").readlines()
 # Step 2
 for line in all_db_lines:
+    encrypt_line=""
     len_line = len(line)
-    print(len_line)
-# Step 3
+#Step 3
     for l in range(len_line):
-        print("Line number: {} out of {} {} completion {}%" > format(l + 1, len_line, "."* 30, (l + 1) / len_line * 100))
+        print("Line number: {} out of {} {} completion {}%".format(l + 1, len_line, "."* 30, (l + 1) / len_line * 100))
+        new_line=chr(ord(line[l])+2)
+        encrypt_line+=new_line
+    print(encrypt_line)
+#Step 4
+    with open("encrypted_file", "a") as wfile:
+        wfile.write(encrypt_line + "\n")
 ```
 ## Criteria D: Functionality
 In the form of a video.
