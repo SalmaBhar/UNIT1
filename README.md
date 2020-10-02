@@ -188,7 +188,7 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 ![alt text](generaldiagram.png)
 
 
-![alt text](cipherdiagram.png)
+![alt text](cipherflowdiagram.png)
 
 ```.py
 # This program encryptes a database using the Caesar Cipher
