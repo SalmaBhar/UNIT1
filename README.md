@@ -188,6 +188,8 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 ![alt text](generaldiagram.png) <br>
 **Fig.1.** General Diagram for the Encryption process 
 
+<br>
+
 ![alt text](cipherflowdiagram.png) <br>
 **Fig.2.** Flow Diagram for the Encryption process 
 
