@@ -186,9 +186,10 @@ To secure the database, we will be using a Caesar Cipher. This cipher encodes me
 4. Save the new encrypted database
 
 ![alt text](generaldiagram.png)
-
+**Fig.1.** General Diagram for the Encryption process 
 
 ![alt text](cipherflowdiagram.png)
+**Fig.2.** Flow Diagram for the Encryption process 
 
 ```.py
 # This program encryptes a database using the Caesar Cipher
