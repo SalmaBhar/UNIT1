@@ -211,6 +211,14 @@ for line in all_db_lines:
     with open("encrypted_file", "a") as wfile:
         wfile.write(encrypt_line + "\n")
 ```
+Database
+```.py
+Product,price,quantity
+RAM,34,56
+ROM,76,98
+CPU,4,57
+HDD,24,98
+```
 ## Criteria D: Functionality
 In the form of a video.
 
