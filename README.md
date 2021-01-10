@@ -36,10 +36,6 @@ TBD
 4. Secure application: It allows user login/autenthication 
 
 ## Criteria B: Design
-### System Diagram 
-still working on it.
-### Flow Diagram (menu)
-still working on it.
 ### Record of Tasks
 | Task No | Planned Action                                                                                           | Planned Outcome                       | Time Estimated | Target Completion date | Criterion |
 |---------|----------------------------------------------------------------------------------------------------------|---------------------------------------|----------------|------------------------|-----------|
